@@ -18,7 +18,15 @@ h2 {
 	font-size: 48px;
 }
 
-#email {
-  padding-right: 10px;
+#emaildiv {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#namediv {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#messagediv {
+  padding-top: 10px;
   padding-left: 10px;
 }
