@@ -87,7 +87,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
-           <form action="//formspree.io/a.m.mahfood@ufl.edu">
+           <form action="http://formspree.io/a.m.mahfood@ufl.edu" method="POST">
             <div class="form-group">
               <label for="name" class="col-sm-2 control-label">Name</label>
               <div class="col-sm-10">
@@ -111,21 +111,32 @@
                 <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
               </div>
             </div>
-            <div class="form-group">
-              <div class="col-sm-10 col-sm-offset-2">
-                <?php echo $result; ?>    
-              </div>
-            </div>
           </form> 
-
-
 
         </div>
       </div>
     </div>
 
 
+
+
+
+
 <div class="container">
+  
+  <form id="contactform" method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <input type="hidden" name="_subject" value="Website contact" />
+    <textarea name="message" placeholder="Your message"></textarea>
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" value="Send">
+</form>
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', 'http://formspree.io/' + 'a.m.mahfood' + '@' + 'ufl' + '.' + 'edu');
+</script>
+  
   <form action="http://formspree.io/a.m.mahfood@ufl.edu"
       method="POST">
     <input type="text" name="name">
