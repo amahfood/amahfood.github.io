@@ -17,3 +17,8 @@ h2 {
 	font-family: 'Amatic SC', cursive;
 	font-size: 48px;
 }
+
+#email {
+  padding-right: 10px;
+  padding-left: 10px;
+}
