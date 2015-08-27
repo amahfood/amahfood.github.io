@@ -75,7 +75,16 @@ h2 {
 	background-color: #2F4F4F;
 	border-color: #2F4F4F;
 	color: #F8F8FF;	
-	
+}
+
+
+.thumbnail img:hover {
+	transform: scale(1.1);
+}
+
+.thumbnail img {
+	transition: all 0.3s ease 0s;
+	width: 100%;
 }
 
 
