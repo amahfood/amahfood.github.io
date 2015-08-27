@@ -27,3 +27,35 @@ h2 {
 #messagediv {
   padding-top: 30px;
 }
+
+.navbar-default {
+	background-color: #5F9EA0;
+	border-color: #F8F8FF;
+	color: #F8F8FF;
+}
+
+.navbar-default .navbar-brand {
+	color: #F8F8FF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #A52A2A;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li >a {
+	color: #F8F8FF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #F8F8FF;
+	background-color: #2F4F4F;
+}
+
+
+
+
+
