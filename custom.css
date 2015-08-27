@@ -61,7 +61,22 @@ h2 {
 	background-color: transparent;
 }
 
+.btn-primary {
+	background-color: #5F9EA0;
+	border-color: #5F9EA0;
+	color: #F8F8FF;
+}
 
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	background-color: #2F4F4F;
+	border-color: #2F4F4F;
+	color: #F8F8FF;	
+	
+}
 
 
 
