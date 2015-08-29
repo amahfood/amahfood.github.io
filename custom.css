@@ -28,6 +28,12 @@ h2 {
   padding-top: 30px;
 }
 
+#carousel {
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+}
+
 .navbar-default {
 	background-color: #5F9EA0;
 	border-color: #F8F8FF;
