@@ -31,6 +31,7 @@ h2 {
 #carousel {
   height: 250px;
   width: 500px;
+  overflow: hidden;
  
 }
 
